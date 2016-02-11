@@ -1,0 +1,44 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+}
+
+div {
+	display: inline-block;
+	margin: -2px;
+	position: relative;
+
+}
+
+.left {
+	background-color: skyblue;
+	width: 33.33333333%;
+	height: 100vh;
+		vertical-align: top;
+}
+
+.middle {
+	background-color: teal;
+	width: 33.333333333%;
+	height: 100vh;
+		vertical-align: top;
+}
+
+.right {
+	background-color: lightgreen;
+	width: 33.333333333%;
+	height: 100vh;
+		vertical-align: top;
+}
+
+.bottom-right {
+	background-color: red;
+	height: 30%;
+	width: 100%;
+	margin: 0;
+	position: absolute;
+	bottom: 0;
+	text-align: center;
+	line-height: 200px;
+}
+

@@ -1,0 +1,92 @@
+* {
+	margin: 10px 5px;
+}
+
+html {
+	
+}
+
+.red {
+	background-color: red;
+}
+
+.blue {
+	background-color: skyblue;
+}
+
+.char {
+	background-color: gray;
+}
+
+.topcontain {
+	height: 100px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-content: space-between;
+}
+
+.topbox {
+	display: inline-block;
+	width: 30%;
+	height: 90%;
+
+}
+
+
+
+.textcontain {
+	position: relative;
+
+}
+
+.midcontain {
+	height: 200px;
+	position: relative;
+
+
+}
+
+.midbox1 {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+
+}
+
+.midbox2 {
+	height: 100%;
+	width: 30%;
+	position: absolute;
+
+}
+
+.botcontain {
+	height: 150px;
+	display: flex;
+	flex-direction: row;
+	padding-left: 5px;
+}
+
+.botbox{
+	height: 100%;
+	margin-left: 0px;
+	margin-right: 0px;
+	
+}
+
+.first {
+	width: 60%;
+}
+
+.second {
+	width: 5%;
+}
+
+.third {
+	width: 30%;
+}
+
+.fourth {
+	width: 5%;
+}
